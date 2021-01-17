@@ -1,4 +1,4 @@
-sudo yum update
+sudo yum update -y
 sudo yum install -y tmux, vim, wget, git, gcc, python3, python3-pip, python3-devel, python-devel
 pip3 install virtualenv
 pip3 install virtualenvwrapper
