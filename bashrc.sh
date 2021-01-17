@@ -22,4 +22,4 @@ print_git_branch(){
   result=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/')
   echo "\[\e[31m\]\[\e[43m\]$result\[\e[0m\]"
 }
-export PS1="$(print_line_divider)$(print_user) on $(print_path) sur  $(print_git_branch) \$ "
+export PS1="$(print_line_divider) $(print_user) on $(print_path) sur  $(print_git_branch) \$ "
