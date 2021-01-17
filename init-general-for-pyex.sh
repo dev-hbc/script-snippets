@@ -3,7 +3,6 @@ sudo yum install -y tmux, vim, wget, git, gcc, python3, python3-pip, python3-dev
 pip3 install virtualenv
 pip3 install virtualenvwrapper
 pip3 install uwsgi
-sudo yum install -y 
 wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
 sudo yum install -y epel-release
